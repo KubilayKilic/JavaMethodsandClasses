@@ -1,0 +1,17 @@
+package com.kaan.methodsandclasses;
+
+public class Adventurers {
+
+    //attribute
+
+    String name;
+    int wit;
+    int age;
+
+    public Adventurers(String name, int wit, int age) {
+        this.name = name;
+        this.wit = wit;
+        this.age = age;
+        System.out.println("constructor called");
+    }
+}
